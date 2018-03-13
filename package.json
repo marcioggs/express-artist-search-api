@@ -1,6 +1,6 @@
 {
-  "name": "express-react-sample",
-  "version": "0.0.0",
+  "name": "express-artist-search",
+  "version": "1.0.0",
   "private": true,
   "scripts": {
     "start": "node ./bin/www"
