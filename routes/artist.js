@@ -9,6 +9,7 @@ router.get('/:artistName', function(req, res, next) {
 
   artist.search(req.params.artistName)
     .then(function(data) {
+      res.type('json');
       res.send(data);
     }, function(err) {
       next(err);
